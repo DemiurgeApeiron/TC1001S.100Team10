@@ -10,7 +10,7 @@ Exercises
 """
 
 from turtle import *
-from random import randrange
+from random import randrange, randint
 from freegames import square, vector
 
 food = vector(0, 0)
@@ -26,6 +26,8 @@ def inside(head):
     "Return True if head inside boundaries."
     return -200 < head.x < 190 and -200 < head.y < 190
 
+
+#Utilizando variables globales se reemplaza los colores fijos en esta funcion
 def move():
     "Move snake forward one segment."
     head = snake[-1].copy()
@@ -48,12 +50,27 @@ def move():
     clear()
 
     for body in snake:
-        square(body.x, body.y, 9, 'black')
+        square(body.x, body.y, 9, snakeColor)
 
-    square(food.x, food.y, 9, 'green')
+    square(food.x, food.y, 9, foodColor)
     update()
     ontimer(move, 100)
 
+#Funcion que genera un color aleatorio de 5 opciones para la comida
+#Toma como parametro color, que es el color de la serpiente
+#Checa si el color generado es igual, y si esto es el caso intena de nuevo
+def getFoodColor(color):
+    colorList = ['black', 'green','blue','yellow','pink']
+    tempColor = colorList[randint(0,4)]
+    if(tempColor == color):
+        getFoodColor(color)
+    else:
+        return tempColor
+
+#Lista de 5 colores, usa funcion randint para elegir uno para la serpiente
+colorList = ['black', 'green','blue','yellow','pink']
+snakeColor = colorList[randint(0,4)]
+foodColor = getFoodColor(snakeColor)
 setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
