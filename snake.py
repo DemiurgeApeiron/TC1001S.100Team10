@@ -35,18 +35,22 @@ def inside(head):
 
 #Utilizando variables globales se reemplaza los colores fijos en esta funcion
 def move():
-    "Move snake forward one segment."
+    "Move snake and food forward one segment."
     head = snake[-1].copy()
     head.move(aim)
     if food.x < limitex / 2 - 10 and food.x > -limitex / 2 + 10:
         print(food.x)
+        #hace aleatorio el movimiento de la comida
         food.x += round(randrange(-1, 2)) * 10
     else:
+        #hace que la comida retroceda un paso si llego al limite
         food.x += food.x / food.x * -10
     if food.y < limitey / 2 - 10 and food.y > -limitey / 2 + 10:
         print(food.y)
+        #hace aleatorio el movimiento de la comida
         food.y += round(randrange(-1, 2)) * 10
     else:
+        #hace que la comida retroceda un paso si llego al limite
         food.y += food.y / food.y * -10
 
     if not inside(head) or head in snake:
