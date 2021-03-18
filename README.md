@@ -1,5 +1,10 @@
 # Modificaciónes de los juegos
 
+##Creadores
+- Ian Seidman Sorsby
+- Javier Alejandro Martinez Noe
+- Ricardo Uraga de la Fuente
+
 ## Snake
 
 - Añadimos la funcionalidad de colores aleatorios para la serpiente y la comida al correr el juego, siempre son colores distintos y no pueden ser del mismo color la serpiente y la comida
