@@ -13,10 +13,15 @@ from turtle import *
 from random import randrange, randint
 from freegames import square, vector
 
+<<<<<<< HEAD
+limitex = 420
+limitey = 420
+=======
 limitex = 500
 limitey = 500
 tercervar = 500
 
+>>>>>>> origin/SnakeBoardSize
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
@@ -30,8 +35,12 @@ def change(x, y):
 
 def inside(head):
     "Return True if head inside boundaries."
+<<<<<<< HEAD
     return -limitex / 2 + 10 < head.x < limitex / 2 - 10 and -limitey / 2 + 10 < head.y < limitey / 2 - 10
 
+=======
+    return -250 < head.x < 250 and -250 < head.y < 250
+>>>>>>> origin/SnakeBoardSize
 
 
 #Utilizando variables globales se reemplaza los colores fijos en esta funcion
@@ -87,11 +96,15 @@ def getFoodColor(color):
     else:
         return tempColor
 
+<<<<<<< HEAD
 #Lista de 5 colores, usa funcion randint para elegir uno para la serpiente
 colorList = ['black', 'green','blue','yellow','pink']
 snakeColor = colorList[randint(0,4)]
 foodColor = getFoodColor(snakeColor)
+setup(420, 420, 370, 0)
+=======
 setup(limitex, limitey, tercervar, 0)
+>>>>>>> origin/SnakeBoardSize
 hideturtle()
 tracer(False)
 listen()
