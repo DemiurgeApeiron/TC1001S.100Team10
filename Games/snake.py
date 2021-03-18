@@ -13,6 +13,10 @@ from turtle import *
 from random import randrange
 from freegames import square, vector
 
+limitex = 500
+limitey = 500
+tercervar = 500
+
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
@@ -24,7 +28,7 @@ def change(x, y):
 
 def inside(head):
     "Return True if head inside boundaries."
-    return -200 < head.x < 190 and -200 < head.y < 190
+    return -250 < head.x < 250 and -250 < head.y < 250
 
 def move():
     "Move snake forward one segment."
@@ -54,7 +58,7 @@ def move():
     update()
     ontimer(move, 100)
 
-setup(420, 420, 370, 0)
+setup(limitex, limitey, tercervar, 0)
 hideturtle()
 tracer(False)
 listen()
