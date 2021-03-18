@@ -65,10 +65,15 @@ def move():
     clear()
 
     for body in snake:
+<<<<<<< HEAD
         square(body.x, body.y, 9, snakeColor)
 
     square(food.x, food.y, 9, foodColor)
+=======
+        square(body.x, body.y, 9, "black")
 
+    square(food.x, food.y, 9, "green")
+>>>>>>> origin/HungrySnakos
     update()
     ontimer(move, 100)
     print(f"snake {head.x} :: {head.y}")
