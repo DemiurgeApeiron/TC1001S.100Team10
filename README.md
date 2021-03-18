@@ -26,5 +26,5 @@ Este proyecto consiste de modificar las reglas y funcionalidades de juegos clás
 
 - Es necesario tener la version más reciente de Python instalada y puesta dentro del PATH.
 - Es necesario también tener instalada el módulo Freegames, esto se puede hacer a través de la herramienta PIP
-- 
+- Finalmente puedes correr los archivos snake.py y pacman.py dentro de tu terminal de elección utilizando Python
 
