@@ -18,6 +18,7 @@ Este proyecto consiste de modificar las reglas y funcionalidades de juegos clás
 Javier Alejandro Martinez Noe:
     Para el juego de Snake dacidi modificar el sigiente aspecto: La comida podrá moverse al azar un paso a la vez y no deberá de salirse de la ventana
     para esto tuve que agregar unos condicionales en la funcion del movimiento para que el movimiento de la comida estubiera sincronizado con el de la serpeinte. De igual manera agerege un randomizador a las cordenadas de la comida en "x" y "y", tomando en consideracion que pasaria si llegara al brode se tubiera que retroceder un paso para continuar con el juago. Por ultimo tuve que modificar la forma en la que se median las restricciones para que a la hora que se juntaran las ramas del git no hubiera conflictos.
+    
     def inside(head):
       "Return True if head inside boundaries."
       return -limitex / 2 + 10 < head.x < limitex / 2 - 10 and -limitey / 2 + 10 < head.y < limitey / 2 - 10
@@ -56,6 +57,7 @@ Javier Alejandro Martinez Noe:
     ]
 ### Indice pagina equipo 10 
 Javier Alejandro Martinez Noe:
+    
     Para ligar nuestras paginas web en el servidor de aws era neccesario programar un indice el cual ligara las paginas de todos los miebros del equipo, para esto estableci una estructura sencilla utilizando div's para seccionar cada apartado del individuo y anchor tag's para ligar los sitios de los usuaios, al ligar los sitios fue imperativo utilizar el directorio raiz del equipo10 mediante ~team10/[rute], esto fue muy importante ya que el servidor contaba con multiples usuarios. por otro lado para agregar el estilo utilice el nuevo modulo de css3 FlexBox el cual me permitio darle este estilo. Por ultimo nos cordianamos en las codificaciones de las ligas mediante el gestor de versiones git. Para mi sitio personal utilize un proyecto el cual hice para un curso de desarrollo web el cual utiliza Bootstrap.
 
 ## Como Instalar y Jugar
