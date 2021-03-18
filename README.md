@@ -1,9 +1,13 @@
 # Modificaciónes de los juegos
 
-## Creadores
+Creadores
 - Ian Seidman Sorsby
 - Javier Alejandro Martinez Noe
 - Ricardo Uraga de la Fuente
+
+## Explicación del Proyecto
+
+Este proyecto consiste de modificar las reglas y funcionalidades de juegos clásicos implementados en Python. Nosotros no diseñamos las implementaciones de Python, pero si diseñamos e implementamos las siguientes modificaciones:
 
 ### Snake
 
@@ -14,5 +18,13 @@
 ### Pacman
 
 - Añadimos la funcionalidad de incremento de velocidad de los fantasmas del juego
-- Añadimos os fantasmas adicionales
+- Añadimos dos fantasmas adicionales
 - Añadimos la funcionalidad para que pacman (el jugador) comienze el juego en una parte distinta del tablero.
+
+
+## Como Instalar y Jugar
+
+- Es necesario tener la version más reciente de Python instalada y puesta dentro del PATH.
+- Es necesario también tener instalada el módulo Freegames, esto se puede hacer a través de la herramienta PIP
+- 
+
