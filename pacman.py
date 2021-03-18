@@ -1,12 +1,10 @@
 """Pacman, classic arcade game.
 
-Exercises
+Modifications made by:
 
-1. Change the board.
-2. Change the number of ghosts.
-3. Change where pacman starts.
-4. Make the ghosts faster/slower.
-5. Make the ghosts smarter.
+Ian Seidman Sorsby
+Javier Alejandro Martinez Noe
+Ricardo Uraga de la Fuente
 
 """
 
