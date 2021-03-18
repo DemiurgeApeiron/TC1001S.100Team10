@@ -11,13 +11,13 @@ Este proyecto consiste de modificar las reglas y funcionalidades de juegos clás
 
 ### Snake
 
-- Añadimos la funcionalidad de colores aleatorios para la serpiente y la comida al correr el juego, siempre son colores distintos y no pueden ser del mismo color la serpiente y la comida
+- Añadimos la funcionalidad de colores aleatorios para la serpiente y la comida al correr el juego, siempre son colores distintos y no pueden ser del mismo color la serpiente y la comida (Esto fue a través de una función adicional que regresa un string de un color aleatorio pero toma otro color como parametro para checar que no se repitan)
 - Añadimos la funcionalidad de movimiento aleatorio de la comida paso por paso
 - Añadimos la funcionalidad para aumentar el tamaño del tablero
 
 ### Pacman
 
-- Añadimos la funcionalidad de incremento de velocidad de los fantasmas del juego
+- Añadimos la funcionalidad de incremento de velocidad de los fantasmas del juego (Esto fue a través de un cambio en la llamada de la función move, incrementando que tan seguido y rápido se llama esta)
 - Añadimos dos fantasmas adicionales
 - Añadimos la funcionalidad para que pacman (el jugador) comienze el juego en una parte distinta del tablero.
 
