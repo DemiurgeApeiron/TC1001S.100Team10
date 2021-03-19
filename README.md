@@ -57,7 +57,7 @@ Javier Alejandro Martinez Noe:
     ]
 ### Indice pagina equipo 10 
 
-Para ligar nuestras paginas web en el servidor de aws era neccesario programar un indice el cual ligara las paginas de todos los miebros del equipo, para esto establecimos una estructura sencilla utilizando div's para seccionar cada apartado del individuo y anchor tag's para ligar los sitios de los usuaios, al ligar los sitios fue imperativo utilizar el directorio raiz del equipo10 mediante ~team10/[rute], esto fue muy importante ya que el servidor contaba con multiples usuarios. por otro lado para agregar el estilo utilizamos el nuevo modulo de css3 FlexBox el cual me permitio darle este estilo. Por ultimo nos cordianamos en las codificaciones de las ligas mediante el gestor de versiones git. Para mi sitio personal utilize un proyecto el cual hice para un curso de desarrollo web el cual utiliza Bootstrap.
+-Para ligar nuestras paginas web en el servidor de aws era neccesario programar un indice el cual ligara las paginas de todos los miebros del equipo, para esto establecimos una estructura sencilla utilizando div's para seccionar cada apartado del individuo y anchor tag's para ligar los sitios de los usuaios, al ligar los sitios fue imperativo utilizar el directorio raiz del equipo10 mediante ~team10/[rute], esto fue muy importante ya que el servidor contaba con multiples usuarios. por otro lado para agregar el estilo utilizamos el nuevo modulo de css3 FlexBox el cual me permitio darle este estilo. Por ultimo nos cordianamos en las codificaciones de las ligas mediante el gestor de versiones git. Para mi sitio personal utilize un proyecto el cual hice para un curso de desarrollo web el cual utiliza Bootstrap.
 
 ## Como Instalar y Jugar
 
